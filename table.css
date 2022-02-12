@@ -1,0 +1,41 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+h2{
+	font-size: 40px;
+	color: black;
+	font-weight: bolder;
+	font-weight: 700;
+}
+table{
+	letter-spacing: 1.2px;
+}
+td{
+	text-align: center;
+		
+}
+
+@media only screen and (orientation: portrait){
+	*{
+		letter-spacing: 1px;
+	}
+}
+th{
+	text-align: center;
+	background-color:rgb(172, 9, 158);
+	color:white;
+	letter-spacing: 0.5px;
+
+	
+}
+tbody tr:nth-child(even)
+{
+  background: rgba(155, 9, 143, 0.137);
+}
+button:hover{
+	background-color: yellowgreen;
+}

@@ -1,0 +1,23 @@
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
+.nav-link{
+	margin-right: 15px;
+	color:yellow;
+	letter-spacing: 0.5px;
+	transition: 0.5s;
+}
+.nav-link:hover{
+	background-color: yellowgreen;
+	
+}
+.navbar-brand{
+	color:rgb(172, 9, 158);
+	letter-spacing: 0.5px;
+}
+h6{
+	color: rgb(172, 9, 158);
+	letter-spacing: 0.5px;
+	font-family: raleway;
+}
+.navbar-nav ml-auto li a{
+	color:white;
+}
